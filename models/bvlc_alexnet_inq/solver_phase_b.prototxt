@@ -1,0 +1,14 @@
+net: "./models/bvlc_alexnet_inq/train_val.prototxt"
+test_iter: 1000
+test_interval: 3000
+base_lr: 0.003
+lr_policy: "step"
+gamma: 0.2
+stepsize: 15000
+display: 40
+max_iter: 63000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 3000
+snapshot_prefix: "H:/Caffe_Model/caffe_inq/bvlc_alexnet_inq/caffe_alexnet_inq_train_phase_b"
+solver_mode: GPU
